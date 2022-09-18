@@ -1,0 +1,9 @@
+#cy {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #fafafa radial-gradient(#bebebe 1px, transparent 0);
+  background-size: 24px 24px;
+}

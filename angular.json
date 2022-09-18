@@ -13,6 +13,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "cytoscape",
+              "cytoscape-dagre"
+            ],
             "outputPath": "dist/cytoscape-service-map",
             "index": "src/index.html",
             "main": "src/main.ts",
